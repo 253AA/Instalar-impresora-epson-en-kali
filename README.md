@@ -8,7 +8,7 @@ sudo adduser root lpadmin
 ```
 sudo nano /etc/group
 ```
-En el archivo filtra por lpadmin y remplasa la linea **lpadmin:x:158:root** por:
+En el archivo filtra por **lpadmin** y remplasa la linea **lpadmin:x:158:root** por:
 ```
 lpadmin:x:158:root,<user>
 ```
